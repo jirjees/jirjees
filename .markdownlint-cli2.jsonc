@@ -1,0 +1,14 @@
+{
+  // Configuration for markdownlint-cli2. See:
+  // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+  "config": {
+    "default": true,
+    // Profile READMEs commonly use decorative HTML (badges, images, comments).
+    "MD033": false,
+    // The GitHub profile README intentionally has no top-level H1.
+    "MD041": false,
+    // Allow long lines (badge/link-heavy README content).
+    "MD013": false
+  },
+  "ignores": ["node_modules"]
+}
