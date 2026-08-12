@@ -1,0 +1,17 @@
+{
+  "name": "jirjees-profile-readme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tooling to lint and preview the GitHub profile README.",
+  "type": "module",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "preview": "node scripts/preview-server.js"
+  },
+  "devDependencies": {
+    "express": "^4.21.2",
+    "github-markdown-css": "^5.8.1",
+    "markdownlint-cli2": "^0.18.1",
+    "marked": "^15.0.7"
+  }
+}
